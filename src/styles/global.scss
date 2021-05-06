@@ -1,12 +1,17 @@
 @import './variables';
 
 // FONTS
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap');
 
 // RESET
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+    &:focus {
+        outline: 0;
+    }
 }
 
 body {
@@ -14,4 +19,20 @@ body {
     background-color: $black;
     font-family: 'Open Sans', sans-serif;
     color: $black;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 708px;
+    background-image: url('../images/bg-shape.svg');
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+
+    @media screen and (max-width: 767px) {
+        & {
+            padding: 30px;
+        }
+    }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="144px" viewBox="0 0 146 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-30.000000, -30.000000)" fill="#FCFCFC">
+            <g id="Group-9" transform="translate(30.000000, 30.000000)">
+                <circle id="Oval" cx="30" cy="30" r="30"></circle>
+                <path d="M10,52 L50,52 C43.3333333,59.6507874 40,66.8095144 40,73.476181 C40,80.1428477 43.3333333,86.317454 50,92 L10,92 C16.6666667,85.3333333 20,78.6666667 20,72 C20,65.3333333 16.6666667,58.6666667 10,52 Z" id="Rectangle"></path>
+                <rect id="Rectangle" x="0" y="84" width="146" height="60" rx="30"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

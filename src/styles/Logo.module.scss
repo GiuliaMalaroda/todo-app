@@ -1,13 +1,12 @@
 @import './variables';
 
 .Logo {
-    position: fixed;
-    top: 60px;
-    left: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: $light;
     overflow: hidden;
 
     & > img {

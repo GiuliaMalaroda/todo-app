@@ -1,8 +1,19 @@
 import Logo from './components/Logo';
+import Form from './components/Form';
 
 function App() {
     return (
-        <Logo />
+        <div className="wrapper">
+            <header>
+                <Logo />
+            </header>
+            
+            <main>
+                <Form />
+            </main>
+            
+        </div>
+            
     );
 }
 
