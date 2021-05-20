@@ -1,5 +1,55 @@
+@import './variables';
+
 .Tasks {
     position: relative;
-    background-color: red;
-    top: 234px;
+    margin-bottom: 60px;
+    
+    @media screen and (max-width: 767px) {
+        margin-top: 204px;
+        margin-bottom: 30px;
+    } 
+}
+
+.Task {
+    position: relative;
+    background-color: $light;
+    border-radius: 30px;
+    padding: 15px 140px 15px 30px;
+    line-height: 30px;
+
+    &:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+
+    &_isCompleted {
+        text-decoration: line-through;
+    }
+}
+
+.Actions {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Complete,
+.Remove {
+    @extend %btn;
+
+    &:disabled {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.Complete {
+    background-color: $success;
+    margin-right: 5px;
+    background-image: url('../images/icon-check.svg');
+}
+
+.Remove {
+    background-color: $danger;
+    background-image: url('../images/icon-trash.svg');
 }

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import css from '../styles/Form.module.scss';
 
 const Form = props => {
-    const [value, setValue] = useState({});
+    const [value, setValue] = useState();
 
     const onChangeHandler = event => {
         const value = event.target.value;
@@ -18,7 +18,7 @@ const Form = props => {
         // add new task to list
         const shallowTasks = [...props.tasks];
         shallowTasks.push(value);
-        props.setTask(shallowTasks);
+        props.setTasks(shallowTasks);
 
         // clear all fields and reset value
         event.target.reset();
@@ -45,7 +45,7 @@ const Form = props => {
             <button 
                 className={css.Submit}
                 type="submit"
-                disabled={value === ""} >
+                disabled={value === "" || value === undefined} >
                 Add task
             </button>
         </form>

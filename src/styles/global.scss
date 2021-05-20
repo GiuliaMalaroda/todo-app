@@ -35,11 +35,11 @@ body {
     max-width: 708px;
     background-image: url('../images/bg-shape.svg');
     background-repeat: no-repeat;
-    background-position: 30px 30px;
+    background-position: 0 30px;
+    padding-top: 234px;
 
     @media screen and (max-width: 767px) {
-        & {
-            padding: 30px;
-        }
+        background-position: 30px 30px;
+        padding: 30px;
     }
 }
