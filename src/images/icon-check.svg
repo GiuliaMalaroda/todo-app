@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-645.000000, -256.000000)">
+            <g id="Group-7" transform="translate(30.000000, 234.000000)">
+                <g id="Button" transform="translate(598.000000, 5.000000)">
+                    <g id="Group-9" transform="translate(17.000000, 17.000000)">
+                        <path d="M5.43430469,13.6970547 L0.234304687,8.49705469 C-0.0781015625,8.18464844 -0.0781015625,7.67811719 0.234304687,7.36567969 L1.36564844,6.23430469 C1.67805469,5.92186719 2.18461719,5.92186719 2.49702344,6.23430469 L6,9.73724219 L13.5029609,2.23430469 C13.8153672,1.92189844 14.3219297,1.92189844 14.6343359,2.23430469 L15.7656797,3.36567969 C16.0780859,3.67808594 16.0780859,4.18461719 15.7656797,4.49705469 L6.56567969,13.6970859 C6.25324219,14.0094922 5.74671094,14.0094922 5.43430469,13.6970547 L5.43430469,13.6970547 Z" id="Path" fill="#FCFCFC" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

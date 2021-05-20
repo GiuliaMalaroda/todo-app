@@ -1,0 +1,64 @@
+@import './variables';
+
+.Counter {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    color: $white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .25s ease-in-out;
+
+    @media screen and (max-width: 767px) {
+        top: 30px;
+        right: 30px;
+    }
+
+    &_hasTasks {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.ToGo,
+.Down {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+
+    & > span {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: 5px solid $white;
+        text-align: center;
+        line-height: 20px;
+        margin-right: 5px;
+    }
+
+    &_isZero {
+        color: rgba($white, 0.7);
+
+        & > span {
+            background-color: $darkGrey !important;
+        }
+    }
+}
+
+.ToGo {
+    margin-right: 15px;
+
+    & > span {
+        background-color: $danger;
+    }
+}
+
+.Down {
+    & > span {
+        background-color: $success;
+    }
+}
